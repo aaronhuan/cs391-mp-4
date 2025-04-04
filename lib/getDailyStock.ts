@@ -29,7 +29,7 @@ export default async function getDailyStock(
             close: (values as entryVal)["4. close"],
             volume: (values as entryVal)["5. volume"],
         }));
-    } catch (er){
+    } catch{
         return "error";
     }
  };
